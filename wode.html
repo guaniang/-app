@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.mui-table-view li{
+				height: 50px;
+			}
+			.mui-table-view .mui-media-object{
+				width: 25px;
+				height: auto;
+			}
+			.banner{
+				width: 100%;
+				height: 200px;
+			}
+			.banner img{
+				width: 100%;
+				height: 200px;
+			}
+			.mui-media-body{
+				font-size: 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+			
+			<div class="banner" >
+				<img src="img/banner1_02.png"/>
+		</div>
+			
+			
+			<div class="mui-scroll">
+				<!--数据列表-->
+				<ul class="mui-table-view mui-table-view-chevron">
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="img/wode1_03.png"/>
+							<div class="mui-media-body">
+								邀请好友        
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='木屋'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="img/wode2_03.png">
+							<div class="mui-media-body">
+								我的优惠卷
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="img/wode3_03.png">
+							<div class="mui-media-body">
+								帮助中心
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="img/wode4_03.png">
+							<div class="mui-media-body">
+								安全设置
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="img/wode5_03.png">
+							<div class="mui-media-body">
+								更多
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.plusReady(function() {
+				mui("ul").on("tap", "li", function() {
+					mui.openWindow({
+						url: "xinyong.html",
+						id: "xinyong.html"
+					})
+				})
+			})
+		</script>
+	</body>
+
+</html>

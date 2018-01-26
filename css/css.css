@@ -1,0 +1,81 @@
+.mui-bar{
+		   	background:#3096fb ;
+		   	color: white;
+		   }
+.mui-bar h1{
+		   	color: white;
+		   }
+		   
+
+.kaitong{
+	width: 90%;
+	background: white;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.kaitong img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+.mui-table-top {
+	border-bottom: 1px solid #CCCCCC;
+}
+.mui-table-top span{
+   
+	line-height: 50px;
+}
+.mui-table-top p{
+	width: 8px;
+	height: 25px;
+	background: #3694f8;
+	margin: 10px;
+	border-radius: 8px;
+	float: left;
+	text-align: left;
+}
+
+.mui-table-view{
+	width: 90%;
+	font-size: 12px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.mui-table-view .huang{
+	color: #d4af2b;
+	margin-left: 60px;
+}
+.mui-table-view .mui-media-body p{
+	float: left;
+}
+.mui-table-view .jie{
+	width: 60px;
+	border-radius: 30px;
+	font-size: 12px;
+	color: #638fbc;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #638fbc;
+}
+.mui-table-view .yue{
+	font-size: 12px;
+	width: 60px;
+	margin-left: 2%;
+}
+.mui-ellipsis{
+	font-size: 12px;
+	margin-top: -15px;
+}
+.mui-ellipsis span{
+	margin-left: 40px;
+}
+.footer{
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}

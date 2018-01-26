@@ -1,0 +1,76 @@
+{
+	"daikuan.html": {
+		"resources": [
+			"css/mui.min.css",
+			"img/lunbo1_02.png",
+			"img/lunbo2_02.png",
+			"img/lunbo_02.png",
+			"css/css.css",
+			"js/mui.min.js",
+			"img/dai3_03.png",
+			"img/dai2_03.png",
+			"img/dai1_03.png",
+			"img/daikuan1_03.png"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"daikuan.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"daikuan.html",
+			"faxian.html",
+			"wode.html",
+			"xinyong.html",
+			"list.html"
+		]
+	},
+	"faxian.html": {
+		"resources": [
+			"css/css.css",
+			"css/mui.min.css",
+			"img/24b.png",
+			"img/timg.jpg",
+			"img/2.jpg",
+			"img/faxian2_03.png",
+			"img/faxian1_03.png",
+			"img/xiaolian_07.png",
+			"img/anquan_07.png",
+			"img/dixi_07.png"
+		]
+	},
+	"wode.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"img/wode5_03.png",
+			"img/wode1_03.png",
+			"img/wode4_03.png",
+			"img/wode3_03.png",
+			"img/wode2_03.png",
+			"img/wodebanner_02.png",
+			"img/banner1_02.png"
+		],
+		"refer": [
+			"list.html",
+			"xinyong.html"
+		]
+	},
+	"xinyong.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}
